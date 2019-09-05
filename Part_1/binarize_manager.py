@@ -76,9 +76,9 @@ if __name__ == '__main__':
                         help="Output path")
 
     parser.add_argument("--sigma1", type=int, default=1,
-                        help="first sigma parameter of the method")
+                        help="first sigma for the first gaussian filter")
     parser.add_argument("--sigma2", type=int, default=30,
-                        help="second sigma parameter of the method")
+                        help="second sigma for the second gaussian filter")
     parser.add_argument("--threshold", type=float, default=0.87,
                         help="threshold of the method")
 
