@@ -1,0 +1,57 @@
+name: ICDAR_Tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - blas=1.0
+  - bzip2=1.0.8
+  - ca-certificates=2019.6.16
+  - certifi=2019.6.16
+  - cycler=0.10.0
+  - dask-core=2.3.0
+  - decorator=4.4.0
+  - freetype=2.10.0
+  - imageio=2.5.0
+  - intel-openmp=2019.4
+  - jpeg=9c
+  - kiwisolver=1.1.0
+  - libcxx=8.0.1
+  - libcxxabi=8.0.1
+  - libffi=3.2.1
+  - libopenblas=0.2.20
+  - libpng=1.6.37
+  - libtiff=4.0.10
+  - lz4-c=1.8.3
+  - matplotlib=3.1.1
+  - matplotlib-base=3.1.1
+  - mkl=2018.0.3
+  - mkl_fft=1.0.10
+  - mkl_random=1.0.2
+  - ncurses=6.1
+  - networkx=2.3
+  - numpy=1.15.4
+  - numpy-base=1.15.4
+  - olefile=0.46
+  - openblas=0.2.19
+  - openssl=1.1.1c
+  - pillow=6.1.0
+  - pip=19.2.3
+  - pyparsing=2.4.2
+  - python=3.6.7
+  - python-dateutil=2.8.0
+  - pywavelets=1.0.3
+  - readline=8.0
+  - scikit-image=0.13.1
+  - scipy=1.1.0
+  - setuptools=41.2.0
+  - six=1.12.0
+  - sqlite=3.29.0
+  - tk=8.6.9
+  - toolz=0.10.0
+  - tornado=6.0.3
+  - wheel=0.33.6
+  - xz=5.2.4
+  - zlib=1.2.11
+  - zstd=1.4.0
+#prefix: /Users/voegtlil/miniconda3/envs/ICDAR_Tutorial
+
