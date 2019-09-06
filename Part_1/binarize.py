@@ -83,7 +83,7 @@ if __name__ == '__main__':
                         help="threshold of the method")
 
     args = parser.parse_args()
-    if args.output_path is None:
+    if args.output_path is None or args.output_path == "None":
         name, extension = os.path.splitext(os.path.basename(args.img))
         args.output_path = name + "_binary" + extension
 
