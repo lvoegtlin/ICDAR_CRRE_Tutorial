@@ -20,7 +20,7 @@ For a little bit of additional knowledge we will also create a Github template r
 2. Go on the the github page of your repository
 3. Chlick on **Clone or Download** (chose HTTPS if you did not yet install your SSH keys)
 
-   ![](DOC image)
+   ![](https://raw.githubusercontent.com/lvoegtlin/ICDAR_CRRE_Tutorial/master/Part_1/figures/d_o_c.png)
 4. Copy the link
 5. Go back to your terminal and execute
    ```
@@ -94,6 +94,6 @@ This is very useful if you have a lot of projects with the same structure or the
 1. Go on the github page of your template
 2. Click **Use this template**
 
-   ![](template image)
+   ![](https://raw.githubusercontent.com/lvoegtlin/ICDAR_CRRE_Tutorial/master/Part_1/figures/use_template.png)
 3. Add name and description of the repository and create it
 4. Done with part 1
