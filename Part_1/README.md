@@ -11,7 +11,7 @@ For a little bit of additional knowledge we will also create a Github template r
    ![](https://help.github.com/assets/images/help/repository/repo-create.png)
 3. Use a short name for the repo e.g. ICDAR_Part_1 
 4. Optionally you can add a description
-5. Tick Initialize this repository with a README
+5. Tick **Initialize this repository with a README**
 6. Click **Create Repository**
 
 ### Clone your Repository
