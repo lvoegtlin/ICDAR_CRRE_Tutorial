@@ -84,9 +84,12 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     if args.output_path is None or args.output_path == "None":
-        name, extension = os.path.splitext(os.path.basename(args.img))
-        args.output_path = name + "_binary" + extension
+        args.output_path = ""
 
     img = skimage.io.imread(args.img, as_grey=True)
     binary_img = img_to_binary(img, sigma1=args.sigma1, sigma2=args.sigma2, threshold=args.threshold)
-    write_binary_file(binary_img, args.output_path)
+
+    name, extension = os.path.splitext(os.path.basename(args.img))
+    bin_file_name = name + "_binary" + extension
+
+    write_binary_file(binary_img, os.path.join(args.output_path, bin_file_name))

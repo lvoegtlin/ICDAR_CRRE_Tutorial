@@ -26,7 +26,7 @@ For a little bit of additional knowledge we will also create a Github template r
    ```
    git clone GIT_LINK_TO_YOUR_REPO
    ```
-6. Download the file **Part_1/binarize.py** from this repo and move into your tutorial folder (or copy if you already cloned this repo)
+6. Download the file **Part_1/code/binarize.py** from this repo and move into your tutorial folder (or copy if you already cloned this repo)
 7. Check the status of your git
    ```
    git status

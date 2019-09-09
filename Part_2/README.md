@@ -28,7 +28,7 @@ In this part we will create a virtual environment with the help of conda and ins
 
 ## Test the Environment 
 
-1. Download from **Part_1** the folder **data** and save it into your tutorial folder
+1. Download from **Part_1** the folder **code/data** and save it into your tutorial folder
 2. Make sure your environment is activated
 3. Run the method
    ```
