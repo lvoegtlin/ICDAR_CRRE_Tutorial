@@ -46,7 +46,7 @@ class ExecuteOnDivaServices:
             encoded_string = base64.b64encode(image_file.read()).decode('ascii')
             file_name = os.path.basename(input_image)
             payload = "{\"files\":[{\"type\":\"image\",\"value\":\"" + encoded_string + "\",\"name\":\"" + \
-                      file_name.split('.')[0] + "\"}]}"
+                      file_name + "\"}]}"
             headers = {
                 'content-type': "application/json"
             }
