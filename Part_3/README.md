@@ -118,6 +118,7 @@ An autobuild is a build, which is done automatically based on an event, like a n
 
 1. We have to connect our Github account with our Dockerhub so log in on [Dockerhub](https://cloud.docker.com/)
 2. Click on the arrow besides your name and go to **Account settings**
+   ![](https://raw.githubusercontent.com/lvoegtlin/ICDAR_CRRE_Tutorial/master/Part_3/figures/dockerhub_connect.png)
 3. There chose the menu **Linked Account**
 4. Click on **connect** right beside GitHub and follow the wizard. 
 5. After finishing the wizard, the two accounts should be connected
