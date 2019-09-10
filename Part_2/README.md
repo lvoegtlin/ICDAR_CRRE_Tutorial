@@ -55,3 +55,12 @@ Just execute
 conda create -n NAME_OF_NEW_ENVIRONMENT --clone NAME_OF_TEMPLATE
 ```
 This creates a copy of the template environment (similar to the github template) which you then can adapt on your actual project. 
+
+
+If you transfer the environment between different platforms or between different versions of the same OS, delete the build number and the prefix in the environment file. 
+```
+  change
+  - scikit-image=0.13.1=py36_0
+  to 
+  - scikit-image=0.13.1
+```
