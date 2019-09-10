@@ -22,7 +22,7 @@ In this part we will create a virtual environment with the help of conda and ins
    
 4. As the method needs the package **skimage** we have to install it
    ```
-   $ conda install scikit-image=0.13.1
+   $ conda install -y scikit-image=0.13.1
    ```
    This will install the skimage version 0.13.1 with all its dependencies
 
