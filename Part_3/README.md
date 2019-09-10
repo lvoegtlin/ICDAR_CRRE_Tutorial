@@ -45,7 +45,7 @@ To make it easier to run the method inside the container with parameters we have
    ```
 6. Now we can test the script with the following command
    ```
-   $ ./script.sh /path/to/image.jpg
+   $ ./script.sh /path/to/image.jpeg
    ```
 
 ### Create the Dockerfile
@@ -88,10 +88,10 @@ Now we have an image, so we can create containers out of it.
 To test if the image works as expected we test it with the test image we have from part 1.
 
 ```
-docker run -it --rm -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_1/code/data/inputImage.jpg:/input/image.jpg -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_3/code/:/output/:rw MY_DOCKERHUB_NAME/binarization sh /input/script.sh /input/image.jpg /output/
+docker run -it --rm -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_1/code/data/inputImage.jpeg:/input/image.jpeg -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_3/code/:/output/:rw MY_DOCKERHUB_NAME/binarization sh /input/script.sh /input/image.jpeg /output/
 ```
 
-After some time you should find a **inputImage_binary.jpg** file in your folder.
+After some time you should find a **inputImage_binary.jpeg** file in your folder.
 
 ### Publish the container
 As we have now a running container we can publish it on our Dockerhub page.

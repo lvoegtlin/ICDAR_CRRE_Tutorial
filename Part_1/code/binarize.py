@@ -89,7 +89,7 @@ if __name__ == '__main__':
     img = skimage.io.imread(args.img, as_grey=True)
     binary_img = img_to_binary(img, sigma1=args.sigma1, sigma2=args.sigma2, threshold=args.threshold)
 
-    name, extension = os.path.splitext(os.path.basename(args.img))
-    bin_file_name = name + "_binary" + extension
+    _, extension = os.path.splitext(os.path.basename(args.img))
+    bin_file_name = "binarizedImage" + extension
 
     write_binary_file(binary_img, os.path.join(args.output_path, bin_file_name))

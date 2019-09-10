@@ -32,9 +32,9 @@ In this part we will create a virtual environment with the help of conda and ins
 2. Make sure your environment is activated
 3. Run the method
    ```
-   $ python binarize.py /path/to/the/test/image.jpg
+   $ python binarize.py /path/to/the/test/image.jpeg
    ```
-4. If everything worked fine you have now a file **inputImage_binary.jpg** in your folder
+4. If everything worked fine you have now a file **inputImage_binary.jpeg** in your folder
 
 ## Export Environment
 
