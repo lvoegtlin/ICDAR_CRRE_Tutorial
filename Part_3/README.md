@@ -88,10 +88,10 @@ Now we have an image, so we can create containers out of it.
 To test if the image works as expected we test it with the test image we have from part 1.
 
 ```
-docker run -it --rm -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_1/code/data/270.jpg:/input/image.jpg -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_3/code/:/output/:rw MY_DOCKERHUB_NAME/binarization sh /input/script.sh /input/image.jpg /output/
+docker run -it --rm -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_1/code/data/inputImage.jpg:/input/image.jpg -v /PATH_TO_ICDAR_CRRE_Tutorial/Part_3/code/:/output/:rw MY_DOCKERHUB_NAME/binarization sh /input/script.sh /input/image.jpg /output/
 ```
 
-After some time you should find a **270_binary.jpg** file in your folder.
+After some time you should find a **inputImage_binary.jpg** file in your folder.
 
 ### Publish the container
 As we have now a running container we can publish it on our Dockerhub page.
