@@ -9,7 +9,7 @@ For a little bit of additional knowledge we will also create a Github template r
 2. In the upper-right corner click **+**, and then click **New repository**.
 
    ![](https://help.github.com/assets/images/help/repository/repo-create.png)
-3. Use a short name for the repo e.g. ICDAR_Part_1 
+3. Use a short name for the repo e.g. ICDAR_Tutorial
 4. Optionally you can add a description
 5. Tick **Initialize this repository with a README**
 6. Click **Create Repository**
@@ -24,24 +24,24 @@ For a little bit of additional knowledge we will also create a Github template r
 4. Copy the link
 5. Go back to your terminal and execute
    ```
-   git clone GIT_LINK_TO_YOUR_REPO
+   $ git clone GIT_LINK_TO_YOUR_REPO
    ```
 6. Download the file **Part_1/code/binarize.py** from this repo and move into your tutorial folder (or copy if you already cloned this repo)
 7. Check the status of your git
    ```
-   git status
+   $ git status
    ```
 8. Add the file to the stage
    ```
-   git add binarize.py
+   $ git add binarize.py
    ```
 9. Commit the change and write a message
    ```
-   git commit -m "binarization method added"
+   $ git commit -m "binarization method added"
    ```
 10. Push the change to the remote repository
    ```
-   git push origin master
+   $ git push origin master
    ``` 
 
 ### Create a template repository

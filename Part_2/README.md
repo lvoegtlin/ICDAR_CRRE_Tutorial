@@ -12,17 +12,17 @@ In this part we will create a virtual environment with the help of conda and ins
 1. Open a terminal and navigate to your tutorial folder (folder where you store the binarize.py file / git root folder)
 2. Create a new Conda environment called "ICDARF_Tutorial" and python version 3.7 with the following command
    ```
-   conda create -n ICDAR_Tutorial python=3.7
+   $ conda create -n ICDAR_Tutorial python=3.7
    ``` 
 3. After some time you will be able to activate the environment
    ```
-   conda activate ICDAR_Tutorial
+   $ conda activate ICDAR_Tutorial
    ```
    ```which python``` should now point on the non-default python location
    
 4. As the method needs the package **skimage** we have to install it
    ```
-   conda install scikit-image=0.13.1
+   $ conda install scikit-image=0.13.1
    ```
    This will install the skimage version 0.13.1 with all its dependencies
 
@@ -32,9 +32,9 @@ In this part we will create a virtual environment with the help of conda and ins
 2. Make sure your environment is activated
 3. Run the method
    ```
-   python binarize.py /path/to/the/test/image.jpg
+   $ python binarize.py /path/to/the/test/image.jpg
    ```
-4. If everything worked fine you have now a file **270_binarized.jpg** in your folder
+4. If everything worked fine you have now a file **270_binary.jpg** in your folder
 
 ## Export Environment
 
@@ -42,7 +42,7 @@ Now we want to share our environment. For that we have to export it and push it 
 
 1. To export the environment just execute this command when the environment is activated
    ```
-   conda env export > environment.yml
+   $ conda env export > environment.yml
    ```
    This creates a environment.yml file in your folder
 2. Now you can add all the files to the stash, commit them and then push them to github
@@ -52,15 +52,15 @@ Now we want to share our environment. For that we have to export it and push it 
 If you use one kind of environment multiple times/have a kind of a template environment you can create new environments base on it.
 Just execute
 ```
-conda create -n NAME_OF_NEW_ENVIRONMENT --clone NAME_OF_TEMPLATE
+$ conda create -n NAME_OF_NEW_ENVIRONMENT --clone NAME_OF_TEMPLATE
 ```
 This creates a copy of the template environment (similar to the github template) which you then can adapt on your actual project. 
 
 
 If you transfer the environment between different platforms or between different versions of the same OS, delete the build number and the prefix in the environment file. 
 ```
-  change
-  - scikit-image=0.13.1=py36_0
-  to 
-  - scikit-image=0.13.1
+change
+- scikit-image=0.13.1=py36_0
+to 
+- scikit-image=0.13.1
 ```
