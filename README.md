@@ -5,6 +5,6 @@ In this repository you find all the material for the ICDAR Tutorial **Create a R
 
 **Date**: September 22, 2019
 
-**Time**: 9 - 12:30 am
+**Time**: 9am - 12:30pm
 
 **Room**: CB11.04.102
