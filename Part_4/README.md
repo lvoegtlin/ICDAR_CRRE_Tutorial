@@ -1,6 +1,6 @@
 # Part 4: Share your Service
 In this part we provide your method with the help of DIVAServices as a web service.
-As DIVEServices is based on Docker we just have to write/adapt the installation request to make our method easily accessible though the web.
+As DIVAServices is based on Docker we just have to write/adapt the installation request to make our method easily accessible though the web.
 
 For both steps (installation and execution of the method) we have already prepared scripts to make your life easier.
 

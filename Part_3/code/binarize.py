@@ -86,7 +86,7 @@ if __name__ == '__main__':
     if args.output_path is None or args.output_path == "None":
         args.output_path = ""
 
-    img = skimage.io.imread(args.img, as_grey=True)
+    img = skimage.io.imread(args.img, as_gray=True)
     binary_img = img_to_binary(img, sigma1=args.sigma1, sigma2=args.sigma2, threshold=args.threshold)
 
     _, extension = os.path.splitext(os.path.basename(args.img))
