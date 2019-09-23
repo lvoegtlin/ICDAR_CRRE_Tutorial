@@ -18,6 +18,13 @@ To not forget to delete the build numbers and the prefix from the **environment.
   - scikit-image=0.13.1
 ```
 
+You can use the following bash command:
+
+```
+mv environment.yml environment.yml.old
+cat environment.yml.old | sed 's/^\(.*\)=[^=]*$/\1/' > environment.yml
+```
+
 ### Create execution script
 To make it easier to run the method inside the container with parameters we have to create a bash script that takes all the parameters and executes the method.
 
@@ -109,7 +116,7 @@ As we have now a running container we can publish it on our Dockerhub page.
 
 ## Create an automatic building system
 Now we can push all our files (binarize.py, Dockerfile, script.sh, environment.yml) to Github to make then public. 
-This allows other peaople to change the code and rebuild the image without the need of downloading the image and manipulate the container.
+This allows other people to change the code and rebuild the image without the need of downloading the image and manipulate the container.
 With all our code on Github we can use another feature of Dockerhub: autobuilds!
 An autobuild is a build, which is done automatically based on an event, like a new push.
 
