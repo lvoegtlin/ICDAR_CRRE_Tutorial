@@ -1,0 +1,4 @@
+- talk about git tags
+- easier example (with lighter dependencies)
+- lighter docker container
+- reduce a little bit the amount of material
