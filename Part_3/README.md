@@ -25,6 +25,12 @@ mv environment.yml environment.yml.old
 cat environment.yml.old | sed 's/^\(.*\)=[^=]*$/\1/' > environment.yml
 ```
 
+Or re-export the environment with the following option
+
+```
+conda env export -n ENV_NAME --no-builds | grep -v "prefix" > environment.yml
+```
+
 ### Create execution script
 To make it easier to run the method inside the container with parameters we have to create a bash script that takes all the parameters and executes the method.
 
